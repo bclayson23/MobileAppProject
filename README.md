@@ -13,12 +13,10 @@ PhysicalMediaMonitor solves this problem by allowing users to log and organize t
 
 # Core Features
 - Add a new movie to the collection
-- Upload or attach a photo of the DVD/Blu-ray
 - Enter movie details (title, director, format)
 - View all movies in a list sorted alphabetically by title
 - Search movies by title
 - Create and manage a wishlist
-- Add images to wishlist items
 - Store all data locally on the device
 
 # User Interaction Flow
@@ -31,7 +29,6 @@ PhysicalMediaMonitor solves this problem by allowing users to log and organize t
    - Title
    - Director
    - Format (DVD, Blu-ray, 4K)
-   - Optional image
 7. User saves the movie
 8. Movie appears in the collection list
 9. User can navigate to the Wishlist page
@@ -56,13 +53,11 @@ PhysicalMediaMonitor solves this problem by allowing users to log and organize t
   - title
   - director
   - format (DVD, Blu-ray, 4K)
-  - image (optional)
 - Wishlist list (array of movie objects)
   - id
   - title
   - director
   - format
-  - image (optional)
 - Search query (text input)
 - Form input values
 
